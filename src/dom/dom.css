@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    color: rgb(225, 219, 219);
+}
+
+button {
+    cursor: pointer;
+}
+.main { 
+    width:90%;
+    
+}
+button {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+}
+input {
+    height: 2rem;
+    text-align: center;
+    margin: 1rem;
+    font-family: 'MuseoModerno', cursive;
+
+}
+
+
+
+th {
+    width: 8rem;
+}
+td {
+    width: 8rem;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+table {
+
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+
+    border: 2px solid rgb(199, 199, 199);
+    width: 100%;
+       background-color: rgb(69, 73, 84);
+
+   
+}
+
+
+.car_image {
+    height: 6rem;
+    margin-left: 1rem;
+    transform: rotateY(180deg);
+    margin-bottom: -1rem;
+    width: 90%;
+}
+
+
+tbody, thead  { 
+   display: flex;
+   flex-direction: column;
+}
+
+a {
+    all: unset;
+  cursor: pointer;
+}
+
+button.play {
+    all: unset;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 12px solid #000;
+    border-bottom: 8px solid transparent;
+    cursor: pointer;
+}
+button.pause {
+    all: unset;
+    width: 4px;
+    height: 16px;
+    border-right: 4px solid #000;
+    border-left: 4px solid #000;
+    cursor: pointer;
+}
+
+.icons_div {
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    
+    
+}
+
+@keyframes car_move {
+    from {
+      
+    }
+
+    to {
+
+        transform: translateX(600px) rotateY(180deg);
+    
+
+    }
+
+}
+
+/* object {
+    animation: car_move 2s ease-in;
+   
+} */
+
+.meta {
+    width: 5%;
+    position: absolute;
+    margin-left: 634px;
+    margin-top: -8%;
+    z-index: 0;
+}
